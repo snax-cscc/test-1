@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color: aliceblue;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo{
+  text-decoration: none;
+  color: rgb(87, 211, 49);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.navigation a{
+  color: rgb(87, 211, 49);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover{
+  color: aqua;
+}
+
+section{
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/photo_2022-02-11_15-38-35.jpg) no-repeat;
+  background-size: cover;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(230, 189, 58);
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3{
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn{
+  color: #fff;
+  background-color: rgb(87, 211, 49);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.main-btn:hover{
+  background-color:  rgb(230, 189, 58);
+  transform: scale(1.1);
+}
+
+.social-icons a{
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color:  rgb(87, 211, 49);
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: rgb(87, 211, 49);
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: rgb(87, 211, 49);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.Projects {
+   background-color: rgb(230, 189, 58);
+}
+
+.Projects .content {
+  margin-top: 30px;
+}
+
+.Projects-card {
+  background-color: #fff;
+  border: 1px solid rgb(87, 211, 49);
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s;
+}
+
+.Projects-card:hover{
+  transform: scale(1.1);
+}
+
+.Projects-card:hover .Projects-img{
+  opacity: 0.9;
+}
+
+.Projects-img img {
+  width: 100%;
+}
+
+.Project-info {
+  padding: 1em;
+}
+
+.Project-category{
+  font-size: 0.8em;
+  color: #000;
+}
+
+.Project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.more-details{
+  text-decoration: none;
+  color:rgb(87, 211, 49);
+}
+
+.more-details:hover{
+  color: rgb(230, 189, 58);
+}
+
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p{
+  font-size: 1.5em;
+}
