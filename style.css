@@ -217,3 +217,71 @@ section{
 .contact .info p{
   font-size: 1.5em;
 }
+
+.footer  {
+  color:  white;
+  background-color: rgb(230, 189, 58);
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: rgb(87, 211, 49);
+}
+
+@media (max-width:1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 10px;
+  }
+  
+  .title {
+    font-size: 1.8em;
+  }
+
+section{
+  padding: 80px 20px;
+}
+
+.main-content h2{
+   font-size: 1em;
+}
+
+.main-content h3{
+  font-size: 1.6em;
+}
+
+.content {
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media (max-width:641px){
+  body {
+    font-size: 12px;
+  }
+
+  .main-content h2 {
+    font-size: 0.8em;
+  }
+
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width:300px) {
+ body{
+       font-size: 10px;
+}
+}
