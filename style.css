@@ -285,3 +285,42 @@ section{
        font-size: 10px;
 }
 }
+
+
+.typing {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid black;
+  animation: blink 0.5s step-end infinite;
+}
+
+.typing span {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(20, end) infinite, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(87, 211, 49);
+  }
+}
